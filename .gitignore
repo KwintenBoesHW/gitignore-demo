@@ -1,0 +1,14 @@
+# ignore files and folders with name manual.pdf
+manual.pdf
+
+# ignore folders named bin
+bin/
+
+# ignore files and folders who end with .pdf
+*.pdf
+# exception: don't ignore files and folders with name docs.pdf
+!docs.pdf
+
+# ignore files and folders who end with .xlsx in the folder draft
+draft/*.xlsx
+
